@@ -101,6 +101,7 @@ class SNAKE:
         self.direction = Vector2(0, 0)
 
 
+
 class FRUIT:
     def __init__(self):
         self.randomize()
@@ -151,6 +152,14 @@ class MAIN:
 
     def game_over(self):
         self.snake.reset()
+
+    def pause(self):
+        # hereee make this
+        return None
+    
+    def start(self):
+        # hereee make this
+        return None
 
     def draw_grass(self):
         grass_color = (156, 209, 61)
@@ -220,4 +229,4 @@ while True:
     screen.fill((175, 215, 70))
     main_game.draw_elements()
     pygame.display.update()
-    clock.tick(60)
+    clock.tick(500)
