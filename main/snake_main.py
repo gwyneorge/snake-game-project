@@ -2,7 +2,6 @@
 ﻿import pygame, sys, random
 from pygame.math import Vector2
 
-# C:\Users\george\repositories\snake-game-project\main\Graphics
 class SNAKE:
     def __init__(self):
         self.body = [Vector2(5, 10), Vector2(4, 10), Vector2(3, 10)]
